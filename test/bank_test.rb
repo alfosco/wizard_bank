@@ -17,21 +17,21 @@ class BankTest < Minitest::Test
     assert_equal "An account has been opened for Minerva with JP Morgan Chase", bank.open_account("Minerva")
   end
 
-  def test_it_can_deposit
-    bank = Bank.new("JP Morgan Chase")
-  end
+  #def test_it_can_deposit
+    #bank = Bank.new("JP Morgan Chase")
+  #end
 
-  def test_it_can_withdraw
-    bank = Bank.new("JP Morgan Chase")
-  end
+  #def test_it_can_withdraw
+    #bank = Bank.new("JP Morgan Chase")
+  #end
 
-  def test_it_can_transfer
-    bank = Bank.new("JP Morgan Chase")
-  end
+  #def test_it_can_transfer
+   #bank = Bank.new("JP Morgan Chase")
+  #end
 
-  def test_it_returns_total_cash
-    bank = Bank.new("JP Morgan Chase")
-    assert_equal 750, bank.total_cash
-  end
+  #def test_it_returns_total_cash
+    #bank = Bank.new("JP Morgan Chase")
+    #assert_equal 750, bank.total_cash
+  #end
 
 end
